@@ -14,7 +14,6 @@ echo form_submit('mysubmit', 'Calcular');
 echo form_label('<br><br><br>--------------------------------- <br>', '');
 echo form_label('--------------------------------- <br>', '');
 echo form_label('LISTA', '');
-echo form_label('<br><br><br>ID  A  B  C  DELTA  X1  X2', '');
 echo form_close(); 
 
 ?>
