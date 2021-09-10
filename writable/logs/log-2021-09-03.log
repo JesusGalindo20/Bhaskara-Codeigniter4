@@ -1,0 +1,163 @@
+ERROR - 2021-09-03 20:25:11 --> Table 'bhaskara.bhaskara' doesn't exist
+CRITICAL - 2021-09-03 20:25:11 --> Table 'bhaskara.bhaskara' doesn't exist
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `bh...')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bh...')
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bh...')
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bh...', Array, false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir()
+#10 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#11 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-09-03 20:26:45 --> There is no data to insert.
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir()
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 20:27:39 --> There is no data to insert.
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir()
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 20:27:47 --> There is no data to insert.
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir('1')
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 20:29:46 --> There is no data to insert.
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir('1', '2', '3')
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 20:30:11 --> There is no data to insert.
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->inserir('1', '2', '3', '22')
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-03 20:50:00 --> syntax error, unexpected token "<", expecting end of file
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Common.php(1271): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(19): view('home')
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 20:50:21 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Common.php(1271): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(19): view('home')
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 21:28:55 --> Undefined variable $id
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:29:59 --> Undefined variable $id
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:30:58 --> Undefined variable $id
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:32:50 --> Undefined variable $id
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:36:08 --> syntax error, unexpected token "{", expecting ")"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('bhaskara/frmIns...')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('bhaskara/frmIns...')
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:51:51 --> syntax error, unexpected token "="
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('bhaskara')
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('bhaskara')
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:55:03 --> Undefined array key "A"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:56:22 --> Undefined array key "A"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:56:28 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 21:57:29 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\Common.php(1271): CodeIgniter\View\View->render('bhaskara_view', Array, true)
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(22): view('bhaskara_view', Array)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->index()
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#5 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 21:58:17 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,13 @@
+CRITICAL - 2021-09-09 18:15:26 --> Too few arguments to function App\Controllers\Bhaskara::excluir(), 0 passed in C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->excluir()
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-09 18:53:45 --> Undefined array key "ID"
+#0 C:\xampp\htdocs\semestre3\CodeBhaskara\app\Controllers\bhaskara.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(928): App\Controllers\Bhaskara->frmInserir()
+#2 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bhaskara))
+#3 C:\xampp\htdocs\semestre3\CodeBhaskara\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\semestre3\CodeBhaskara\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
