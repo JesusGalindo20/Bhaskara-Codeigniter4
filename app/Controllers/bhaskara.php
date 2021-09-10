@@ -29,9 +29,14 @@ class Bhaskara extends BaseController
 		
     }
 
-	public function frmInserir($a = FALSE, $b = FALSE, $c = FALSE, $delta = 0000, $id = FALSE)
-	{	
-		$id = $this->request->getPost()['ID'];
+	public function frmInserir()
+	{		
+	  if(isset($this->request->getPost()['ID'])) {
+            $id = $this->request->getPost()['ID'];
+           } else {
+            $id = FALSE;
+           }
+
 		$a = $this->request->getPost()['A'];
 		$b = $this->request->getPost()['B'];
 		$c = $this->request->getPost()['C'];
