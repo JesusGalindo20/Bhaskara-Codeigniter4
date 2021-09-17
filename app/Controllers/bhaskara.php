@@ -7,35 +7,14 @@ use App\Models;
 
 class Bhaskara extends BaseController
 {
-    public function index()
-    {
-		//index
-		echo view('home');
-		
-
-		//LISTAR
-		$bhasModel = new \App\Models\BhaskaraModel();
-		
-		$todos = $bhasModel->findAll();
-		$data['tabela'] = $todos;
-
-		echo view('bhaskara_view', $data);
-
-		echo view('update');
-
-		echo view('Delete');
-
-
-		
-    }
 
 	public function frmInserir()
 	{		
-	  if(isset($this->request->getPost()['ID'])) {
+		if(isset($this->request->getPost()['ID'])) {
             $id = $this->request->getPost()['ID'];
-           } else {
+        } else {
             $id = FALSE;
-           }
+        }
 
 		$a = $this->request->getPost()['A'];
 		$b = $this->request->getPost()['B'];
@@ -66,21 +45,35 @@ class Bhaskara extends BaseController
 
 	
 	public function ler()
+    {
+		echo view('home');
+        $bhasModel = new \App\Models\BhaskaraModel();
+        $todos = $bhasModel->findAll();
+
+        foreach ($todos as $key => $linha) {
+            $todos[$key]['excluir'] = '<a href="excluir/' . $linha['ID'] . '"> DELETAR </a>' ;
+        }
+
+		foreach ($todos as $key => $linha) {
+            $todos[$key]['editar'] = '<a href="edit/' . $linha['ID'] . '"> EDITAR </a>' ;
+        }
+        $data['tabela'] = $todos;
+        echo view('bhaskara_view', $data);
+
+    }
+
+	public function edit($id)
 	{
 		$bhasModel = new \App\Models\BhaskaraModel();
 		
-		$todos = $bhasModel->findAll();
-		$data['tabela'] = $todos;
-
-		echo view('bhaskara_view', $data);
-
+		$todos = $bhasModel->find($id);
+		$data['olhar'] = $todos;
+		echo view ('update', $data);
 		
 	}
 	
-	public function excluir($id = FALSE)
+	public function excluir($id)
 	{
-		$id = $this->request->getPost()['ID'];
-
 		$bhasModel = new \App\Models\BhaskaraModel();
 		
 		$result = $bhasModel->delete($id);
